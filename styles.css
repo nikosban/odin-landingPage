@@ -1,0 +1,232 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/* header */
+
+
+.header {
+    background-color: #1F2937;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 1200px;
+}
+
+.logo {
+    font-size: 24px;
+    line-height: 32px;
+    color: #F9FAF8;
+}
+
+.navLinks {
+    display: flex;
+    gap: 12px;
+}
+
+.linkItem {
+    padding: 12px;
+    color: #E5E7EB;
+}
+
+.linkItem:hover {
+    background-color: #F9FAF823;
+    text-decoration: underline;
+}
+
+/* hero */
+
+.hero {
+    background-color: #1F2937;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.hero .container {
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 32px;
+    color: #F9FAF8;
+}
+
+.content p {
+    color: #E5E7EB;
+}
+
+.hero-img {
+    width: 50%;
+    height: auto;
+    border-radius: 24px;
+}
+ 
+/* features */
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 72px 24px;
+
+}
+
+.features .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+}
+
+.cardSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 240px;
+    height: 240px;
+    padding: 24px;
+
+    text-align: center;
+    
+}
+
+/* quote */
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 144px 24px;
+    background-color: #E5E7EB;
+}
+
+.quote .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.quote p {
+    font-size: 36px;
+    line-height: 44px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote h3 {
+    color: #1F2937;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 800;
+    width: 100%;
+    text-align: right;
+}
+
+/* banner */
+
+.upsale {
+    padding: 72px 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 64px;
+    border-radius: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner .title {
+    max-width: 720px;
+}
+
+.title p {
+    color: #E5E7EB;
+}
+
+/* components */
+
+.prmBtn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: block;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 800;
+    max-width: fit-content;
+}
+
+.scdBtn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: block;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 800;
+    width: fit-content;
+    height: fit-content;
+}
+
